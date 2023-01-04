@@ -6,9 +6,9 @@ number = random.randint(-10, 10)
 if number:
 	if number > 0:
 		str = "is positive"
-	else
+	else:
 		str = "is negative"
-else
+else:
 	str = "is zero"
 
 
