@@ -12,4 +12,4 @@ else:
 	str = "is zero"
 
 
-print(f"{number} {str}\n");
+print(f"{number} {str}")
