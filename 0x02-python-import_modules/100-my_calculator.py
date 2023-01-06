@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-def calc(argc):
+if __name__ == "__main__":
+    from sys import argv, exit
     from calculator_1 import add, sub, mul, div
-    if argc < 3:
+    argc = len(argv)
+    if argc < 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
-        return 1
-    a = int(sys.argv[1])
-    operator = sys.argv[2]
-    b = int(sys.argv[3])
+        exit(1)
+    a = int(argv[1])
+    operator = argv[2]
+    b = int(argv[3])
     if operator == "+":
         print("{:d} + {:d} = {:d}".format(a, b, add(a,b)))
     elif operator == "-":
@@ -17,9 +19,4 @@ def calc(argc):
         print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
     else:
         print("Unknown operator. Available operators: +, -, * and /")
-        return 1    
-    return 0
-
-if __name__ == "__main__":
-    import sys
-    print(calc(len(sys.argv)))
+        exit(1)
