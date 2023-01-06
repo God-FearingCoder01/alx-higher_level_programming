@@ -9,5 +9,5 @@ if last_digit:
     else:
         strng = "and is less than 6 and not 0"
 else:
-    str = "and is 0"
+    strng = "and is 0"
 print("Last digit of {:d} is {:d} {}".format(number, last_digit, strng))
