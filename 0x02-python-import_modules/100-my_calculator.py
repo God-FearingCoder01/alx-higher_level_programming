@@ -7,13 +7,13 @@ def calc(argc):
     operator = sys.argv[2]
     b = int(sys.argv[3])
     if operator == "+":
-        print(f"{a} + {b} = {a + b}")
+        print("{:d} + {:d} = {:d}".format(a, b, a + b))
     elif operator == "-":
-        print(f"{a} - {b} = {a - b}")
+        print("{:d} - {:d} = {:d}".format(a, b, a - b))
     elif operator == "*":
-        print(f"{a} * {b} = {a * b}")
+        print("{:d} * {:d} = {:d}".format(a, b, a * b))
     elif operator == "/":
-        print(f"{a} / {b} = {a / b}")
+        print("{:d} / {:d} = {:d}".format(a, b, a / b))
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         return 1    
