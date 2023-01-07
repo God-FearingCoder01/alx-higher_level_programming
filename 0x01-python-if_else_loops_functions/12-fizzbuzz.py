@@ -1,4 +1,4 @@
-#!/us/bin/python3
+#!/usr/bin/python3
 def fizzbuzz():
     for num in range(1, 101):
         if is_multiple_of_both(num):
