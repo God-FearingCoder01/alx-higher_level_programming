@@ -9,5 +9,5 @@ while i < 100:
             print("{:d}{:d}".format(i, k))
         else:
             print("{:d}{:d}".format(i, k), end=", ")
-        k += 1;
+        k += 1
     i += 1
