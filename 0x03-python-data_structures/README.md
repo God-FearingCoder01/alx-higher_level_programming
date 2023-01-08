@@ -24,6 +24,12 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
 guillaume@ubuntu:~/0x03$ 
 ```
 
+<strong>Repo:</strong>
+
+ - GitHub repository: ```alx-higher_level_programming```
+ - Directory: ```0x03-python-data_structures```
+ - File: ```0-print_list_integer.py```
+
 ### 1. Secure access to an element in a list
 Write a function that retrieves an element from a list like in C.
  - Prototype: ```def element_at(my_list, idx)```:
@@ -44,6 +50,12 @@ guillaume@ubuntu:~/0x03$ ./1-main.py
 Element at index 3 is 4
 guillaume@ubuntu:~/0x03$
 ```
+
+<strong>Repo:</strong>
+
+ - GitHub repository: ```alx-higher_level_programming```
+ - Directory: ```0x03-python-data_structures```
+ - File: ```0-print_list_integer.py```
 
 ### 2. Replace element
 Write a function that replaces an element of a list at a specific position (like in C).
@@ -315,7 +327,7 @@ guillaume@ubuntu:~/py/0x03$
 ### 13. Linked list palindrome
 <strong>Technical interview preparation:</strong>
  - You are not allowed to google anything
- - Whiteboard first
+ - Whiteboard first<br>
 Write a function in C that checks if a singly linked list is a palindrome.
  - Prototype: int is_palindrome(listint_t **head);
  - Return: 0 if it is not a palindrome, 1 if it is a palindrome
