@@ -55,7 +55,7 @@ guillaume@ubuntu:~/0x03$
 
  - GitHub repository: ```alx-higher_level_programming```
  - Directory: ```0x03-python-data_structures```
- - File: ```0-print_list_integer.py```
+ - File: ``1-element_at.py```
 
 ### 2. Replace element
 Write a function that replaces an element of a list at a specific position (like in C).
@@ -82,6 +82,12 @@ guillaume@ubuntu:~/0x03$ ./2-main.py
 [1, 2, 3, 9, 5]
 guillaume@ubuntu:~/0x03$
 ```
+
+<strong>Repo:</strong>
+
+ - GitHub repository: ```alx-higher_level_programming```
+ - Directory: ```0x03-python-data_structures```
+ - File: ```2-replace_in_list.py```
 
 ### 3. Print a list of integers... in reverse!
 Write a function that prints all integers of a list, in reverse order.
