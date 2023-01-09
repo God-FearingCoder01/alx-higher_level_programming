@@ -7,6 +7,9 @@ def delete_at(my_list=[], idx=0):
         pass
     else:
         my_list_copy = my_list
-        my_list_copy = my_list_copy[:idx] + my_list_copy[-(my_list_len - (idx+1)):]
+        if idx == (my_list_len - 1):
+            my_list_copy = my_list_copy[:idx]
+        else:
+            my_list_copy = my_list_copy[:idx] + my_list_copy[-(my_list_len - (idx+1)):]
         my_list[:] = my_list_copy
     return my_list
