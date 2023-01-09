@@ -4,7 +4,7 @@ def get_tuple_members(tuple_h=()):
         return (0, 0)
     elif len(tuple_h) == 1:
         return (tuple_h[0], 0)
-    elif len(tuple_h) == 2:
+    elif len(tuple_h) >= 2:
         return (tuple_h[0], tuple_h[1])
 
 
