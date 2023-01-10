@@ -11,6 +11,7 @@ def delete_at(my_list=[], idx=0):
         if idx == upperbound:
             my_list_copy = my_list_copy[:idx]
         else:
-            my_list_copy = my_list_copy[:idx] + my_list_copy[-(upperbound - idx):]
+            my_list_copy = my_list_copy[:idx] +\
+my_list_copy[-(upperbound - idx):]
         my_list[:] = my_list_copy
     return my_list
